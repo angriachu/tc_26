@@ -6,4 +6,4 @@ import App from "./App";
 import ErrorBoundary from "@/components/common/ErrorBoundary";
 import "./index.css";
 
-createRoot(document.getElementById("root")!).render(<StrictMode><ErrorBoundary><HelmetProvider><BrowserRouter><App/></BrowserRouter></HelmetProvider></ErrorBoundary></StrictMode>);
+createRoot(document.getElementById("root")!).render(<StrictMode><ErrorBoundary><HelmetProvider><BrowserRouter basename={import.meta.env.BASE_URL}><App/></BrowserRouter></HelmetProvider></ErrorBoundary></StrictMode>);
