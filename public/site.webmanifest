@@ -1,0 +1,16 @@
+{
+  "name": "TurboCart Retail ERP & POS",
+  "short_name": "TurboCart",
+  "description": "Retail ERP, POS and business management across Windows, Cloud and Mobile.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050816",
+  "theme_color": "#050816",
+  "icons": [
+    {
+      "src": "/images/brand/turbocart-favicon.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}
